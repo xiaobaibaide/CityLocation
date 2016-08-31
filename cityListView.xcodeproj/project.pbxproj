@@ -16,6 +16,14 @@
 		7176E7921D754E5C00A42171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7176E7901D754E5C00A42171 /* LaunchScreen.storyboard */; };
 		7176E79D1D754E5C00A42171 /* cityListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E79C1D754E5C00A42171 /* cityListViewTests.m */; };
 		7176E7A81D754E5C00A42171 /* cityListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E7A71D754E5C00A42171 /* cityListViewUITests.m */; };
+		7176E7BE1D7566D100A42171 /* CityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E7B71D7566D100A42171 /* CityCollectionViewCell.m */; };
+		7176E7BF1D7566D100A42171 /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7176E7B81D7566D100A42171 /* CityCollectionViewCell.xib */; };
+		7176E7C11D7566D100A42171 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E7BC1D7566D100A42171 /* CityTableViewCell.m */; };
+		7176E7C21D7566D100A42171 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7176E7BD1D7566D100A42171 /* CityTableViewCell.xib */; };
+		7176E7C61D75679700A42171 /* NSString+hkString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E7C51D75679700A42171 /* NSString+hkString.m */; };
+		7176E7C91D756BDE00A42171 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7176E7C81D756BDE00A42171 /* city.plist */; };
+		7176E7CB1D756EEE00A42171 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7176E7CA1D756EED00A42171 /* CoreLocation.framework */; };
+		7176E7CE1D756FFB00A42171 /* LocationCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176E7CD1D756FFB00A42171 /* LocationCityVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		7176E7A31D754E5C00A42171 /* cityListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7176E7A71D754E5C00A42171 /* cityListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cityListViewUITests.m; sourceTree = "<group>"; };
 		7176E7A91D754E5C00A42171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7176E7B61D7566D100A42171 /* CityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityCollectionViewCell.h; sourceTree = "<group>"; };
+		7176E7B71D7566D100A42171 /* CityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityCollectionViewCell.m; sourceTree = "<group>"; };
+		7176E7B81D7566D100A42171 /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
+		7176E7BB1D7566D100A42171 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		7176E7BC1D7566D100A42171 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		7176E7BD1D7566D100A42171 /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		7176E7C41D75679700A42171 /* NSString+hkString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hkString.h"; sourceTree = "<group>"; };
+		7176E7C51D75679700A42171 /* NSString+hkString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hkString.m"; sourceTree = "<group>"; };
+		7176E7C81D756BDE00A42171 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		7176E7CA1D756EED00A42171 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7176E7CC1D756FFB00A42171 /* LocationCityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCityVC.h; sourceTree = "<group>"; };
+		7176E7CD1D756FFB00A42171 /* LocationCityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCityVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7176E7CB1D756EEE00A42171 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,7 @@
 		7176E7731D754E5C00A42171 = {
 			isa = PBXGroup;
 			children = (
+				7176E7CA1D756EED00A42171 /* CoreLocation.framework */,
 				7176E77E1D754E5C00A42171 /* cityListView */,
 				7176E79B1D754E5C00A42171 /* cityListViewTests */,
 				7176E7A61D754E5C00A42171 /* cityListViewUITests */,
@@ -103,10 +125,15 @@
 		7176E77E1D754E5C00A42171 /* cityListView */ = {
 			isa = PBXGroup;
 			children = (
+				7176E7C71D756BC700A42171 /* 文件 */,
+				7176E7C31D75678100A42171 /* Nsstring */,
+				7176E7B51D7566B500A42171 /* 自定义Cell */,
 				7176E7821D754E5C00A42171 /* AppDelegate.h */,
 				7176E7831D754E5C00A42171 /* AppDelegate.m */,
 				7176E7851D754E5C00A42171 /* ViewController.h */,
 				7176E7861D754E5C00A42171 /* ViewController.m */,
+				7176E7CC1D756FFB00A42171 /* LocationCityVC.h */,
+				7176E7CD1D756FFB00A42171 /* LocationCityVC.m */,
 				7176E7881D754E5C00A42171 /* Main.storyboard */,
 				7176E78E1D754E5C00A42171 /* Assets.xcassets */,
 				7176E7901D754E5C00A42171 /* LaunchScreen.storyboard */,
@@ -141,6 +168,36 @@
 				7176E7A91D754E5C00A42171 /* Info.plist */,
 			);
 			path = cityListViewUITests;
+			sourceTree = "<group>";
+		};
+		7176E7B51D7566B500A42171 /* 自定义Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7176E7B61D7566D100A42171 /* CityCollectionViewCell.h */,
+				7176E7B71D7566D100A42171 /* CityCollectionViewCell.m */,
+				7176E7B81D7566D100A42171 /* CityCollectionViewCell.xib */,
+				7176E7BB1D7566D100A42171 /* CityTableViewCell.h */,
+				7176E7BC1D7566D100A42171 /* CityTableViewCell.m */,
+				7176E7BD1D7566D100A42171 /* CityTableViewCell.xib */,
+			);
+			name = "自定义Cell";
+			sourceTree = "<group>";
+		};
+		7176E7C31D75678100A42171 /* Nsstring */ = {
+			isa = PBXGroup;
+			children = (
+				7176E7C41D75679700A42171 /* NSString+hkString.h */,
+				7176E7C51D75679700A42171 /* NSString+hkString.m */,
+			);
+			name = Nsstring;
+			sourceTree = "<group>";
+		};
+		7176E7C71D756BC700A42171 /* 文件 */ = {
+			isa = PBXGroup;
+			children = (
+				7176E7C81D756BDE00A42171 /* city.plist */,
+			);
+			name = "文件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7176E7C21D7566D100A42171 /* CityTableViewCell.xib in Resources */,
 				7176E7921D754E5C00A42171 /* LaunchScreen.storyboard in Resources */,
 				7176E78F1D754E5C00A42171 /* Assets.xcassets in Resources */,
+				7176E7C91D756BDE00A42171 /* city.plist in Resources */,
 				7176E78A1D754E5C00A42171 /* Main.storyboard in Resources */,
+				7176E7BF1D7566D100A42171 /* CityCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7176E7C11D7566D100A42171 /* CityTableViewCell.m in Sources */,
 				7176E7871D754E5C00A42171 /* ViewController.m in Sources */,
 				7176E78D1D754E5C00A42171 /* cityListView.xcdatamodeld in Sources */,
+				7176E7C61D75679700A42171 /* NSString+hkString.m in Sources */,
 				7176E7841D754E5C00A42171 /* AppDelegate.m in Sources */,
 				7176E7811D754E5C00A42171 /* main.m in Sources */,
+				7176E7CE1D756FFB00A42171 /* LocationCityVC.m in Sources */,
+				7176E7BE1D7566D100A42171 /* CityCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cityListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.www.cityListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cityListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.olcps.www.cityListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

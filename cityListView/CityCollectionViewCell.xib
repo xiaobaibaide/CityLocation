@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CityCollectionViewCell" id="gTV-IL-0wX" customClass="CityCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="82"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liI-lv-b1U">
+                        <rect key="frame" x="0.0" y="0.0" width="95" height="82"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="青岛">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="liI-lv-b1U" secondAttribute="bottom" id="5D0-2N-1yJ"/>
+                <constraint firstItem="liI-lv-b1U" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="72f-Hv-PLv"/>
+                <constraint firstItem="liI-lv-b1U" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Pkx-0R-ZsD"/>
+                <constraint firstAttribute="trailing" secondItem="liI-lv-b1U" secondAttribute="trailing" id="Qow-HI-RJw"/>
+            </constraints>
+            <connections>
+                <outlet property="cityButton" destination="liI-lv-b1U" id="UaZ-jj-lka"/>
+            </connections>
+            <point key="canvasLocation" x="81.5" y="212"/>
+        </collectionViewCell>
+    </objects>
+</document>

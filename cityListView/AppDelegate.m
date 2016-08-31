@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LocationCityVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    LocationCityVC * slide = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"VC"];
+    UINavigationController* nc = [[UINavigationController alloc] initWithRootViewController:slide];
+    
+    [self.window setRootViewController:nc];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
